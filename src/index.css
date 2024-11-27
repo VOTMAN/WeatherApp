@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(56, 75, 74);
+    color: rgb(234, 236, 209);
+    font-family: Verdana, sans-serif, Courier, monospace;
+}
+
+body {
+    max-height: 100vh;    
+    justify-items: center;
+}
+
+#container {
+    justify-items: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+form > input {
+    font-size: larger;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+form > button {
+    border: none;
+    border-radius: 6.9px;
+    padding: 5px;
+    color: rgb(226, 222, 222);
+    background-color: lightseagreen;
+    width: fit-content;
+    padding: 0.5rem 1.5rem;
+    font-size: large;
+}
+
+#currentDataBox {
+    margin: 4rem 0;
+    justify-items: center;
+    
+}
+
+#currentDataBox > img {
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+}
+
+#weatherBox {
+    display: flex;
+    flex-shrink: 1;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#weatherBox > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0.5rem 2rem;
+}
+
